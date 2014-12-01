@@ -53,6 +53,7 @@ public class Refactorizar {
 
                         if (contador1 == 1) {
                             esPrimo = true;
+                            System.out.println("El numero es primo");
                         }
                     }
                 }
@@ -60,6 +61,7 @@ public class Refactorizar {
                 if (esPrimo == true) {
                     System.out.println(i);
                 }
+                
             }
         }
     }
@@ -70,4 +72,6 @@ public class Refactorizar {
         int rubendelegadodigitos=valor.nextInt();
         return rubendelegadodigitos;
     }
+    
+    
 }
